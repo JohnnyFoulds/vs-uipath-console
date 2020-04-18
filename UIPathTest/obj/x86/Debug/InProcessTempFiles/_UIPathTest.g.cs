@@ -100,6 +100,7 @@ namespace XamlStaticHelperNamespace {
                         "6ff2196ab5654b9"));
             assemblyList.Add(Load("CsvHelper, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823"));
             assemblyList.Add(Load("CustomInputForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"));
+            assemblyList.Add(Load("DocX, Version=1.0.0.18, Culture=neutral, PublicKeyToken=null"));
             assemblyList.Add(Load("Humanizer, Version=2.4.0.0, Culture=neutral, PublicKeyToken=979442b78dfc278e"));
             assemblyList.Add(Load("ICSharpCode.AvalonEdit, Version=5.0.3.0, Culture=neutral, PublicKeyToken=9cc39be6" +
                         "72370310"));
