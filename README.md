@@ -29,7 +29,7 @@ namespace UIPathTest
 			Console.WriteLine("Typing text in Notepad");
 			CoreActivities.TypeInto typeNotepad = new CoreActivities.TypeInto();
 			typeNotepad.SimulateType = true;
-			typeNotepad.Target.Selector = "<wnd app='notepad.exe' cls='Notepad' title='Untitled - Notepad' /><wnd aaname='Text Editor' cls='Edit' /><ctrl name='Text Editor' role='editable text' />";
+			typeNotepad.Target.Selector = "<wnd app='notepad.exe' title='Untitled - Notepad' /><wnd cls='Edit' /><ctrl name='Text Editor' role='editable text' />";
 			typeNotepad.Text = "Simple, but it works!";
 			WorkflowInvoker.Invoke(typeNotepad);
 
