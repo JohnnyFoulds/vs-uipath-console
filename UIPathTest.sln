@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIPathTest", "UIPathTest\UIPathTest.csproj", "{D314C3CE-2906-4255-B5B1-D62817D94C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D314C3CE-2906-4255-B5B1-D62817D94C42}.Debug|x86.ActiveCfg = Debug|x86
+		{D314C3CE-2906-4255-B5B1-D62817D94C42}.Debug|x86.Build.0 = Debug|x86
+		{D314C3CE-2906-4255-B5B1-D62817D94C42}.Release|x86.ActiveCfg = Release|x86
+		{D314C3CE-2906-4255-B5B1-D62817D94C42}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6083D094-46E3-4C57-BB8F-03905F401615}
+	EndGlobalSection
+EndGlobal
