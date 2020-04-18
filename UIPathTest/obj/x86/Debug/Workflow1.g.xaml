@@ -1,125 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<u:Workflow1 xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:u="clr-namespace:UIPathTest;assembly=UIPathTest" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TextExpression.NamespacesForImplementation>
+<Workflow1 xmlns="clr-namespace:UIPathTest;assembly=UIPathTest" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <p:TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System</x:String>
       <x:String>System.Collections.Generic</x:String>
       <x:String>System.Data</x:String>
       <x:String>System.Linq</x:String>
       <x:String>System.Text</x:String>
-      <x:String>UiPath.Core</x:String>
-      <x:String>UiPath.Core.Activities</x:String>
     </sco:Collection>
-  </TextExpression.NamespacesForImplementation>
-  <TextExpression.ReferencesForImplementation>
-    <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>ActiproSoftware.DataGrid.Contrib.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Docking.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Editors.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Ribbon.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Shared.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.SyntaxEditor.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Text.Addons.DotNet.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Text.LLParser.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Text.Wpf</AssemblyReference>
-      <AssemblyReference>ActiproSoftware.Wizard.Wpf</AssemblyReference>
-      <AssemblyReference>CsvHelper</AssemblyReference>
-      <AssemblyReference>CustomInputForm</AssemblyReference>
-      <AssemblyReference>DocX</AssemblyReference>
-      <AssemblyReference>Humanizer</AssemblyReference>
-      <AssemblyReference>ICSharpCode.AvalonEdit</AssemblyReference>
-      <AssemblyReference>Microsoft.AspNet.SignalR.Client</AssemblyReference>
-      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
-      <AssemblyReference>Microsoft.Rest.ClientRuntime</AssemblyReference>
-      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Activities</AssemblyReference>
-      <AssemblyReference>System.Core</AssemblyReference>
-      <AssemblyReference>System.Data</AssemblyReference>
-      <AssemblyReference>System.Net</AssemblyReference>
-      <AssemblyReference>System.Net.Http</AssemblyReference>
-      <AssemblyReference>System.Net.Http.WebRequest</AssemblyReference>
-      <AssemblyReference>System.Runtime</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
-      <AssemblyReference>System.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>System.Xml</AssemblyReference>
-      <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
-      <AssemblyReference>UiPath.CV</AssemblyReference>
-      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.CV.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.Interop</AssemblyReference>
-      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
-      <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UIAutomation.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.Vision</AssemblyReference>
-      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
-      <AssemblyReference>UiPath.Wizards</AssemblyReference>
-      <AssemblyReference>Xceed.Wpf.AvalonDock</AssemblyReference>
-      <AssemblyReference>Xceed.Wpf.AvalonDock.Themes.Aero</AssemblyReference>
-      <AssemblyReference>Xceed.Wpf.AvalonDock.Themes.Metro</AssemblyReference>
-      <AssemblyReference>Xceed.Wpf.AvalonDock.Themes.VS2010</AssemblyReference>
-      <AssemblyReference>Xceed.Wpf.Toolkit</AssemblyReference>
-      <AssemblyReference>System.Drawing</AssemblyReference>
-      <AssemblyReference>mscorlib</AssemblyReference>
-      <AssemblyReference>UIPathTest</AssemblyReference>
+  </p:TextExpression.NamespacesForImplementation>
+  <p:TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="p:AssemblyReference">
+      <p:AssemblyReference>mscorlib</p:AssemblyReference>
+      <p:AssemblyReference>System</p:AssemblyReference>
+      <p:AssemblyReference>System.Core</p:AssemblyReference>
+      <p:AssemblyReference>System.Data</p:AssemblyReference>
+      <p:AssemblyReference>System.ServiceModel</p:AssemblyReference>
+      <p:AssemblyReference>System.Xml</p:AssemblyReference>
     </sco:Collection>
-  </TextExpression.ReferencesForImplementation>
-  <u:Workflow1.Implementation>
-    <Sequence>
-      <ui:OpenBrowser CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" Url="http://www.google.co.za">
-        <ui:OpenBrowser.Body>
-          <ActivityAction x:TypeArguments="x:Object">
-            <ActivityAction.Argument>
-              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
-            </ActivityAction.Argument>
-            <Sequence DisplayName="Do">
-              <ui:TypeInto ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" SimulateType="True" Text="Use the query string dummy">
-                <ui:TypeInto.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl name='q' tag='INPUT' /&gt;">
-                    <ui:Target.TimeoutMS>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:Target.TimeoutMS>
-                    <ui:Target.WaitForReady>
-                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                    </ui:Target.WaitForReady>
-                  </ui:Target>
-                </ui:TypeInto.Target>
-              </ui:TypeInto>
-              <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
-                <ui:Click.CursorPosition>
-                  <ui:CursorPosition Position="Center">
-                    <ui:CursorPosition.OffsetX>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:CursorPosition.OffsetX>
-                    <ui:CursorPosition.OffsetY>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:CursorPosition.OffsetY>
-                  </ui:CursorPosition>
-                </ui:Click.CursorPosition>
-                <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;webctrl name='btnK' tag='INPUT' /&gt;">
-                    <ui:Target.TimeoutMS>
-                      <InArgument x:TypeArguments="x:Int32" />
-                    </ui:Target.TimeoutMS>
-                    <ui:Target.WaitForReady>
-                      <InArgument x:TypeArguments="ui:WaitForReady" />
-                    </ui:Target.WaitForReady>
-                  </ui:Target>
-                </ui:Click.Target>
-              </ui:Click>
-            </Sequence>
-          </ActivityAction>
-        </ui:OpenBrowser.Body>
-      </ui:OpenBrowser>
-      <sads:DebugSymbol.Symbol>9xSHLS5gDPnr++PNusIc846ESTJi4EJDOlxVc2Vyc1xmb3VsZHNqb1xjb2RlXHZzLXVpcGF0aC1jb25zb2xlXFVJUGF0aFRlc3RcV29ya2Zsb3cxLnhhbWwQUwOCAQ4CAQFUBYABFgIBAlTNAVTmAQIBEFSQAVSYAQIBD1oLfRYCAQNbDWYbAgEKZw18GAIBBF1SXXoCAQ5bhwJbowICAQ1bugFbwAECAQxb+wFbgQICAQtnwgFnzAECAQlzUnN9AgEIZ2lndwIBB2fbAWfhAQIBBmevAWe1AQIBBQ==</sads:DebugSymbol.Symbol>
-    </Sequence>
-  </u:Workflow1.Implementation>
-</u:Workflow1>
+  </p:TextExpression.ReferencesForImplementation>
+</Workflow1>

@@ -11,10 +11,6 @@ namespace UIPathTest
 	{
 		static void Main(string[] args)
 		{
-			Workflow1 workflow = new Workflow1();
-			WorkflowInvoker.Invoke(workflow);
-
-
 			Console.WriteLine("Testing some UIPath stuff...");
 
 			// open notepad
