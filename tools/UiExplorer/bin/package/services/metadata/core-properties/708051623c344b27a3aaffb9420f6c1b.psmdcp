@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>UiPath</dc:creator>
+  <dc:description>IMPORTANT: This package version requires Studio v2018.4.4 / v2019.2 or above. Installing it on versions lower than the recommended ones may cause unexpected changes in your workflows.
+Core activities which enable the robots to simulate human interaction such as mouse, keystrokes and image recognition. Package also contains activities for event monitoring, image, browser and window manipulation.</dc:description>
+  <dc:identifier>UiPath.UIAutomation.Activities</dc:identifier>
+  <version>19.11.2</version>
+  <keywords></keywords>
+  <lastModifiedBy>NuGet, Version=4.3.0.6, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 6.2.9200.0;.NET Framework 4.5</lastModifiedBy>
+</coreProperties>
