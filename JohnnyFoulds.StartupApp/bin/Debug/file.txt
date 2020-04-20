@@ -1,0 +1,36 @@
+2020-04-20 10:22:23.2760|INFO|JohnnyFoulds.Samples.BaseActivity|Execution of OpenBrowser started
+2020-04-20 10:22:23.3658|ERROR|JohnnyFoulds.Samples.BaseActivity|Goodbye cruel world
+2020-04-20 10:24:38.4230|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution of OpenBrowser started
+2020-04-20 10:24:38.5047|ERROR|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Goodbye cruel world
+2020-04-20 10:30:16.8125|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 10:39:25.9216|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 10:40:34.9490|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 10:48:53.0979|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:04:55.7922|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:04:55.8543|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:05:10.5418|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:10:41.7193|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:10:41.7699|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:10:51.9753|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:12:11.4013|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:12:11.4635|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:12:24.5290|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:13:27.6825|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:13:27.7577|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:13:39.6492|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:20:33.4490|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:20:33.5483|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:20:47.7012|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:20:59.3709|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Clicking search button
+2020-04-20 11:22:41.3384|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:22:41.3885|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:22:47.0528|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:22:49.7800|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Clicking search button
+2020-04-20 11:23:02.2966|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:23:02.3773|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:23:08.2309|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:23:11.2253|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Clicking search button
+2020-04-20 11:24:44.5821|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Execution started
+2020-04-20 11:24:44.6317|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Opening Web Browser
+2020-04-20 11:24:53.9601|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Entering Search Text
+2020-04-20 11:24:57.6950|INFO|JohnnyFoulds.Samples.UIAutomation.Browser.OpenBrowser|Clicking search button
